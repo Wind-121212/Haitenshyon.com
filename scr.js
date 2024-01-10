@@ -27,7 +27,7 @@
     let long = position.coords.longitude;
 
     const des = document.querySelector("p");
-     des.innerHTML = `Latitude : ${lat} <br> Longitude : ${long}`;
+     des.innerHTML = `1 : ${lat} <br> 2 : ${long}`;
     console.log(lat,long);
 }
 
